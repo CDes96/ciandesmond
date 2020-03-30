@@ -73,9 +73,11 @@
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/cian-headshot-01-crop-u1166.jpg</image:loc>
+      <image:caption>Cian Desmond. Editor and director, film and video production</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/cian-headshot-01-crop-u11662.jpg</image:loc>
+      <image:caption>Cian Desmond. Editor and director, film and video production</image:caption>
     </image:image>
   </url>
   <url>
@@ -113,6 +115,12 @@
     <image:image>
       <image:loc>http://ciandesmond.com/images/looking-for-still-02.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/speak-to-her-still-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/speak-to-her-still-01360x203.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://ciandesmond.com/music-video.html</loc>
@@ -127,6 +135,9 @@
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
     </image:image>
   </url>
   <url>
