@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://ciandesmond.com/index.html</loc>
-    <lastmod>2020-04-03</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -14,32 +14,23 @@
     <image:image>
       <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://ciandesmond.com/work.html</loc>
-    <lastmod>2020-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/gemini-still-01.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-instagram-50.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/gemini-still-01-crop-u4757.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u5905.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/looking-for-still-02.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/looking-for-still-02-crop-u4738.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/gemini-still-01-crop-u4757.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u4786.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u4786.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/looking-for-still-01.jpg</image:loc>
@@ -48,15 +39,21 @@
       <image:loc>http://ciandesmond.com/images/looking-for-still-02-crop-u47382.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/gemini-still-01-crop-u47572.jpg</image:loc>
+      <image:loc>http://ciandesmond.com/images/gemini-still-01-crop-u5896.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u47862.jpg</image:loc>
+      <image:loc>http://ciandesmond.com/images/gemini-still-01-crop-u47572.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u59052.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/corporate-still-01-crop-u47862.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://ciandesmond.com/about.html</loc>
-    <lastmod>2020-04-03</lastmod>
+    <loc>http://ciandesmond.com/contact.html</loc>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -68,8 +65,20 @@
     <image:image>
       <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://ciandesmond.com/about.html</loc>
+    <lastmod>2020-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/icons8-instagram-50.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/cian-headshot-01-crop-u1166.jpg</image:loc>
@@ -81,8 +90,8 @@
     </image:image>
   </url>
   <url>
-    <loc>http://ciandesmond.com/film.html</loc>
-    <lastmod>2020-04-03</lastmod>
+    <loc>http://ciandesmond.com/landing.html</loc>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -94,8 +103,20 @@
     <image:image>
       <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://ciandesmond.com/film.html</loc>
+    <lastmod>2020-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <image:image>
-      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
+      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/icons8-instagram-50.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/looking-for-still-02.png</image:loc>
@@ -104,30 +125,15 @@
       <image:loc>http://ciandesmond.com/images/speak-to-her-still-01.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://ciandesmond.com/images/speak-to-her-still-01360x203.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://ciandesmond.com/music-video.html</loc>
-    <lastmod>2020-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-instagram-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://ciandesmond.com/contact--cian-desmond---film-and-video-editing,-video-production.html</loc>
-    <lastmod>2020-04-03</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -142,7 +148,7 @@
   </url>
   <url>
     <loc>http://ciandesmond.com/video-production.html</loc>
-    <lastmod>2020-04-03</lastmod>
+    <lastmod>2020-04-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -153,9 +159,6 @@
     </image:image>
     <image:image>
       <image:loc>http://ciandesmond.com/images/icons8-twitter-squared-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/down-arrow.png</image:loc>
     </image:image>
   </url>
 </urlset>
