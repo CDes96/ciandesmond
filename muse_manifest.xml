@@ -1,204 +1,88 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ciandesmond.com" resolutions="1x" timestamp="1586013621297">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="ciandesmond.com" resolutions="1x" timestamp="1589462206177">
   <folder name="css">
-    <file name="site_global.css" crc="3878617179"/>
-    <file name="master_b-master.css" crc="3779376822" ref="about:contact:video-production:index:film:music-video"/>
-    <file name="nomq_preview_master_b-master.css" crc="4095423464" ref="about:contact:video-production:index:film:music-video"/>
-    <file name="master_a-master.css" crc="490162770" ref="landing"/>
-    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="landing"/>
-    <file name="about.css" crc="4204312020" ref="about"/>
-    <file name="nomq_about.css" crc="3806724783" ref="about"/>
-    <file name="iefonts_about.css" crc="3824530138" ref="about"/>
-    <file name="contact.css" crc="385625449" ref="contact"/>
-    <file name="nomq_contact.css" crc="4057595500" ref="contact"/>
-    <file name="iefonts_contact.css" crc="3824530138" ref="contact"/>
-    <file name="landing.css" crc="3785556238" ref="landing"/>
-    <file name="nomq_landing.css" crc="3915217627" ref="landing"/>
-    <file name="iefonts_landing.css" crc="3824530138" ref="landing"/>
-    <file name="video-production.css" crc="3943916139" ref="video-production"/>
-    <file name="nomq_video-production.css" crc="72653300" ref="video-production"/>
-    <file name="iefonts_video-production.css" crc="3824530138" ref="video-production"/>
-    <file name="index.css" crc="4118148414" ref="index"/>
-    <file name="nomq_index.css" crc="329480100" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="film.css" crc="3902236668" ref="film"/>
-    <file name="nomq_film.css" crc="4209381660" ref="film"/>
-    <file name="iefonts_film.css" crc="3824530138" ref="film"/>
-    <file name="music-video.css" crc="3926231605" ref="music-video"/>
-    <file name="nomq_music-video.css" crc="4002848509" ref="music-video"/>
-    <file name="iefonts_music-video.css" crc="3824530138" ref="music-video"/>
+    <file name="site_global.css" crc="269355261"/>
+    <file name="master_a-master.css" crc="4167943945" ref="contact:about:index"/>
+    <file name="nomq_preview_master_a-master.css" crc="406545049" ref="contact:about:index"/>
+    <file name="contact.css" crc="271181597" ref="contact"/>
+    <file name="nomq_contact.css" crc="227637883" ref="contact"/>
+    <file name="iefonts_contact.css" crc="4199591671" ref="contact"/>
+    <file name="about.css" crc="4179805005" ref="about"/>
+    <file name="nomq_about.css" crc="3817723289" ref="about"/>
+    <file name="iefonts_about.css" crc="4199591671" ref="about"/>
+    <file name="index.css" crc="3798759557" ref="index"/>
+    <file name="nomq_index.css" crc="4269663650" ref="index"/>
+    <file name="iefonts_index.css" crc="4199591671" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="museutils.js" crc="3939489907" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="whatinput.js" crc="86476730" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="museconfig.js" crc="3936894949" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="jquery.watch.js" crc="522499760" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="html5shiv.js" crc="4241844378" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="require.js" crc="4177726516" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="webpro.js" crc="3856315280" ref="contact"/>
-    <file name="form_check.php" crc="4108222811" ref="contact"/>
-    <file name="form_throttle.php" crc="503802655" ref="contact"/>
-    <file name="form_process.php" crc="260214869" ref="contact"/>
-    <file name="form-u4626.php" crc="4148871261" ref="contact"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:about"/>
+    <file name="museutils.js" crc="3803043152" ref="index:contact:about"/>
+    <file name="whatinput.js" crc="86476730" ref="index:contact:about"/>
+    <file name="museconfig.js" crc="380897831" ref="index:contact:about"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:contact:about"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:contact:about"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:contact:about"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:contact:about"/>
+    <file name="require.js" crc="4157109226" ref="index:contact:about"/>
   </folder>
   <folder name="images">
-    <file name="home--cian-desmond---film---video-editing,-video-production-favicon.ico" crc="4037934370" ref="landing"/>
-    <file name="icons8-linkedin-50.png" crc="4132399026" seo="true" ref="landing:index:about:contact:film:music-video:video-production">
-      <caption webpage="music-video" alt=""/>
-      <caption webpage="music-video" alt=""/>
+    <file name="a-master-favicon.ico" crc="447229577" ref="index"/>
+    <file name="looking-for-still-02.jpg" crc="3792750624" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="gemini-still-01.jpg" crc="3854121157" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="corporate-still-01.jpg" crc="123036883" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="looking-for-still-03.jpg" crc="341224811" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="music-video.jpg" crc="3843296441" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 901x446.jpg" crc="432833020" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mail.png" crc="4098861246" seo="true" ref="index:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
       <caption webpage="contact" alt=""/>
+    </file>
+    <file name="icons8-linkedin-50.png" crc="4132399026" seo="true" ref="index:contact:about">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
       <caption webpage="contact" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="film" alt=""/>
-      <caption webpage="film" alt=""/>
       <caption webpage="about" alt=""/>
       <caption webpage="about" alt=""/>
+    </file>
+    <file name="u114.png" crc="412074399" ref="index:contact:about"/>
+    <file name="u114-r.png" crc="170667408" ref="index:contact:about"/>
+    <file name="u121.png" crc="4293366037" ref="index:contact:about"/>
+    <file name="u121-r.png" crc="107714077" ref="index:contact:about"/>
+    <file name="u128.png" crc="525100172" ref="index:contact:about"/>
+    <file name="u128-r.png" crc="4199949545" ref="index:contact:about"/>
+    <file name="music-video260x179.jpg" crc="145941342" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted image 901x446354x176.jpg" crc="386433970" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:contact:about"/>
+    <file name="cian-headshot-01.jpg" crc="3831993947" seo="true" ref="about">
       <caption webpage="about" alt=""/>
+    </file>
+    <file name="cian-headshot-01183x275.jpg" crc="3854765384" seo="true" ref="about">
       <caption webpage="about" alt=""/>
-      <caption webpage="video-production" alt=""/>
-      <caption webpage="video-production" alt=""/>
     </file>
-    <file name="icons8-instagram-50.png" crc="514632175" seo="true" ref="landing:index:about:contact:film:music-video:video-production">
-      <caption webpage="music-video" alt=""/>
-      <caption webpage="music-video" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="film" alt=""/>
-      <caption webpage="film" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="video-production" alt=""/>
-      <caption webpage="video-production" alt=""/>
-    </file>
-    <file name="icons8-twitter-squared-50.png" crc="4082588798" seo="true" ref="landing:index:about:contact:film:music-video:video-production">
-      <caption webpage="music-video" alt=""/>
-      <caption webpage="music-video" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="landing" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="film" alt=""/>
-      <caption webpage="film" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="about" alt=""/>
-      <caption webpage="video-production" alt=""/>
-      <caption webpage="video-production" alt=""/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="landing:index:about:contact:film:music-video:video-production"/>
-    <file name="cian-desmond---film-and-video-editing,-video-production-favicon.ico" crc="4037934370" ref="index"/>
-    <file name="gemini-still-01.png" crc="4104342643" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gemini-still-01-crop-u4757.png" crc="525500341" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="corporate-still-01-crop-u5905.png" crc="38985064" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="looking-for-still-02.jpg" crc="69303568" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="looking-for-still-02-crop-u4738.png" crc="287073803" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="corporate-still-01-crop-u4786.png" crc="229820870" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u4842.png" crc="4071009703" ref="index"/>
-    <file name="u4842-r.png" crc="4217041610" ref="index"/>
-    <file name="looking-for-still-01.jpg" crc="3967430480" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u5590.png" crc="4071009703" ref="index"/>
-    <file name="u5590-r.png" crc="4217041610" ref="index"/>
-    <file name="looking-for-still-02-crop-u47382.png" crc="4248997503" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gemini-still-01-crop-u5896.png" crc="244886479" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="gemini-still-01-crop-u47572.png" crc="3815920624" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="corporate-still-01-crop-u59052.png" crc="4157140303" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="corporate-still-01-crop-u47862.png" crc="4199665510" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="u48422.png" crc="4229490958" ref="index"/>
-    <file name="u4842-r2.png" crc="3816349173" ref="index"/>
-    <file name="u55902.png" crc="4229490958" ref="index"/>
-    <file name="u5590-r2.png" crc="3816349173" ref="index"/>
-    <file name="about--cian-desmond---film-and-video-editing,-video-production-favicon.ico" crc="4037934370" ref="about"/>
-    <file name="cian-headshot-01-crop-u1166.jpg" crc="4027611134" seo="true" ref="about">
-      <caption webpage="about" alt="Cian Desmond. Editor and director, film and video production"/>
-    </file>
-    <file name="u4854.png" crc="4071009703" ref="about"/>
-    <file name="u4854-r.png" crc="4217041610" ref="about"/>
-    <file name="u5618.png" crc="4071009703" ref="about"/>
-    <file name="u5618-r.png" crc="4224743979" ref="about"/>
-    <file name="cian-headshot-01-crop-u11662.jpg" crc="183296108" seo="true" ref="about">
-      <caption webpage="about" alt="Cian Desmond. Editor and director, film and video production"/>
-    </file>
-    <file name="u48542.png" crc="4229490958" ref="about"/>
-    <file name="u4854-r2.png" crc="3816349173" ref="about"/>
-    <file name="u56182.png" crc="4229490958" ref="about"/>
-    <file name="u5618-r2.png" crc="215134124" ref="about"/>
-    <file name="b-master-favicon.ico" crc="4037934370" ref="contact"/>
-    <file name="film--cian-desmond---film-and-video-editing,-video-production-favicon.ico" crc="4037934370" ref="film"/>
-    <file name="looking-for-still-02.png" crc="3857632153" seo="true" ref="film">
-      <caption webpage="film" alt=""/>
-      <caption webpage="film" alt=""/>
-    </file>
-    <file name="speak-to-her-still-01.jpg" crc="3895868526" seo="true" ref="film">
-      <caption webpage="film" alt=""/>
-    </file>
-    <file name="down-arrow.png" crc="53240968" seo="true" ref="film">
-      <caption webpage="film" alt=""/>
-      <caption webpage="film" alt=""/>
-    </file>
-    <file name="speak-to-her-still-01360x203.jpg" crc="383866737" seo="true" ref="film">
-      <caption webpage="film" alt=""/>
-    </file>
-    <file name="music-video--cian-desmond---film-and-video-editing,-video-production-favicon.ico" crc="4037934370" ref="music-video"/>
-    <file name="u5678.png" crc="4071009703" ref="music-video"/>
-    <file name="u5678-r.png" crc="4217041610" ref="music-video"/>
-    <file name="u56782.png" crc="4229490958" ref="music-video"/>
-    <file name="u5678-r2.png" crc="3816349173" ref="music-video"/>
-    <file name="u5712.png" crc="4071009703" ref="video-production"/>
-    <file name="u5712-r.png" crc="4217041610" ref="video-production"/>
-    <file name="u57122.png" crc="4229490958" ref="video-production"/>
-    <file name="u5712-r2.png" crc="3816349173" ref="video-production"/>
   </folder>
-  <file name="landing.html" crc="3867460244" seo="true" mt="1586007240483" redirect="true"/>
-  <file name="index.html" crc="4182158942" seo="true" mt="1586013601371" redirect="true"/>
-  <file name="about.html" crc="3804689269" seo="true" mt="1586013350410" redirect="true"/>
-  <file name="contact.html" crc="323101414" seo="true" mt="1586013350410" redirect="true"/>
-  <file name="film.html" crc="272206899" seo="true" mt="1586013350410" redirect="true"/>
-  <file name="music-video.html" crc="4233685975" seo="true" mt="1586013350410" redirect="true"/>
-  <file name="video-production.html" crc="327898079" seo="true" mt="1586013350410" redirect="true"/>
+  <file name="index.html" crc="4222738849" seo="true" mt="1589462167380" redirect="true"/>
+  <file name="contact.html" crc="189137189" seo="true" mt="1589462167380" redirect="true"/>
+  <file name="about.html" crc="4038251054" seo="true" mt="1589462167380" redirect="true"/>
 </manifest>
