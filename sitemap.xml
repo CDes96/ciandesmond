@@ -1,66 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://ciandesmond.com/index.html</loc>
-    <lastmod>2020-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/looking-for-still-02.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/gemini-still-01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/corporate-still-01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/looking-for-still-03.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/music-video.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/pasted%20image%20901x446.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/mail.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/music-video260x179.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/pasted%20image%20901x446354x176.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://ciandesmond.com/contact.html</loc>
-    <lastmod>2020-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/mail.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://ciandesmond.com/about.html</loc>
-    <lastmod>2020-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/icons8-linkedin-50.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/cian-headshot-01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://ciandesmond.com/images/cian-headshot-01183x275.jpg</image:loc>
-    </image:image>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.ciandesmond.com/</loc>
+  <lastmod>2020-05-14T14:05:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.ciandesmond.com/index.html</loc>
+  <lastmod>2020-05-14T14:05:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.ciandesmond.com/contact.html</loc>
+  <lastmod>2020-05-14T14:05:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.ciandesmond.com/about.html</loc>
+  <lastmod>2020-05-14T14:05:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
