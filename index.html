@@ -7,6 +7,7 @@
     <link rel="icon" type="image/svg+xml" href="/images/db-favicon.svg">
     <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta property="og:site_name" content="Cian Desmond">
@@ -32,7 +33,7 @@
 <body>
 
     <header class="sticky">
-        <a href="/index.html">
+        <a href="/index.html" class="smoothscroll">
             <img src="images/cian-logo-black-01.svg" class="logo" alt="Logo">
         </a>
         <nav>
@@ -47,8 +48,8 @@
 
                 <ul class="hide-mobile" id="nav">
                     <li><a href="#work" class="smoothscroll">work</a></li>
-                    <li><a href="#motionGraphics" class="smoothscroll">motion graphics</a></li>
                     <li><a href="#about" class="smoothscroll">about</a></li>
+                    <li><a href="#skills" class="smoothscroll">skills</a></li>
                     <li><a href="#contact" class="smoothscroll">contact</a></li>
                 </ul>
             </div>
@@ -58,13 +59,12 @@
 
     <div class="hero-image">
             <div class="home-text">
-                <h1> <span>Freelance</span>  <br>Editor <span>&</span> Director. </h1>
-                <div class="social">
+                <h1>Freelance <br>Editor & Director.</h1>
+                <div class="social container">
                     <ul>
                         <li><a href="http://instagram.com/cianodesmond" target="_blank"><img src="/images/instagram.svg"></a></li>
                         <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube.svg"></a></li>
                         <li><a href="http://linkedin.com/in/cian-desmond" target="_blank"><img src="/images/linkedin.svg"></a></li>
-                        <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter.svg"></a></li>
                     </ul>
                 </div>
             </div>
@@ -73,8 +73,13 @@
 
   
     <section class="block-blue" id="work">
-            <h3 style="padding-top: 70px;">Selected Work</h3>
-            <section id="portfolio">
+            <h2 style="padding-top: 70px; text-align: center;">Selected Work</h2>
+            <div class="blog-button-list" id="myBtnContainer">
+                <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="blog-btn" onclick="filterSelection('edit')">Projects I Edited</button>
+                <button class="blog-btn" onclick="filterSelection('direct')">Projects I Directed</button>
+            </div>
+            <section id="portfolio" class="container">
                 <div class="row-port">
         
                 <div class="twelve columns collapsed">
@@ -82,7 +87,7 @@
                     <!-- portfolio-wrapper -->
                     <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
         
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column edit">
                             <div class="item-wrap">
         
                             <a href="#modal-01" title="">
@@ -99,7 +104,7 @@
                             </div>
                         </div> <!-- item end -->
 
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column direct">
                             <div class="item-wrap">
         
                             <a href="#modal-02" title="">
@@ -116,7 +121,7 @@
                             </div>
                         </div> <!-- item end -->
         
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column edit">
                             <div class="item-wrap">
         
                             <a href="#modal-03" title="">
@@ -133,7 +138,7 @@
                             </div>
                             </div> <!-- item end -->
         
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column edit">
                             <div class="item-wrap">
         
                             <a href="#modal-04" title="">
@@ -150,7 +155,7 @@
                             </div>
                             </div> <!-- item end -->
         
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column edit">
                             <div class="item-wrap">
         
                             <a href="#modal-05" title="">
@@ -167,7 +172,7 @@
                             </div>
                         </div> <!-- item end -->
 
-                        <div class="columns portfolio-item">
+                        <div class="columns portfolio-item blog-column edit  direct">
                             <div class="item-wrap">
         
                             <a href="#modal-06" title="">
@@ -208,7 +213,7 @@
                         <a class="popup-modal-dismiss">Close</a>
                     </div>
         
-                    </div><!-- modal-01 End -->
+                </div><!-- modal-01 End -->
 
                 <div id="modal-02" class="popup-modal mfp-hide">
         
@@ -305,62 +310,50 @@
     
 
    
-    <section class="block-white">
+    <section class="block-white container">
         <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
             <h4 style="text-align: center; margin-bottom: 0; padding-bottom: 0;">I've worked with</h4>
             
-            <div class="row bgrid-sixths" style="margin-left: 10%; margin-right: 10%; vertical-align: middle; margin-top: -50px; padding-top: 0; padding-bottom: 20px;"> 
+            <div class="row icon-row"> 
                 
-                <div class="bgrid-sixths">
+                <div class="column">
                     <img src="images/client-nwc.png" alt="National Women's Council" style="width: 10em; vertical-align: middle;">
                 </div>
-                <div class="bgrid-sixths">
+                <div class="column">
                     <img src="images/client-wunder.jpeg" alt="Wunder" style="width: 11em; vertical-align: middle;">
                 </div>
-                <div class="bgrid-sixths">
+                <div class="column">
                   <img src="images/client-spicy-dog.png" alt="Spicy Dog Media" style="width: 10em; vertical-align: middle;">
                 </div>
-                <div class="bgrid-sixths">
+                <div class="column">
                   <img src="images/client-iadt.png" alt="IADT" style="width: 7em; vertical-align: middle;">
                 </div>
-                <div class="bgrid-sixths">
+                <div class="column">
                     <img src="images/client-cruinniu.png" alt="Cruinniu" style="width: 4em; vertical-align: baseline;">
                   </div>
             </div>
             <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
     </section>
 
-    <section class="showreel" id="motionGraphics">
-
-        <h2>Motion Graphics</h2>
-
-        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="zDBKYCAWPuw"></div>
-        <p style="text-align: left;">Cian Desmond is a professional motion graphics artist, with experience working with Adobe After Effects and Illustrator. He creates animated explainer videos, flat animation, and all sorts of motion graphic related titles and more. For corporate videos which need motion graphics, Cian Desmond can bring a storytelling flair.
-        An Irish video editor based in Ireland, he has worked remotely with clients all over the world.</p>
-
     
-    </section>
 
    
         
     <section class="block-blue"  id="about"> 
-                <div class="container">
-                    <div class="row">
-                        <div class="column" style="text-align: left; margin-left: 1em; margin-right: 25%; padding-bottom:1em;">
-                            <h3 style="text-align: left; padding-left: 0.25em; padding-top: 70px;">About.</h3>
+                        <div class="container">
+                            <h2 style="text-align: left; padding-left: 0.25em; padding-top: 70px;">About</h2>
                             <p>Cian Desmond is a filmmaker from Cork, Ireland. An editor, director, and producer, he has extensive experience working with award-winning short films, documentaries, corporate video, and music videos. </p>
                             <p>Making films and videos since 2009, he picked up awards for editing at youth film festivals, before completing his bachelor’s degree at the National Film School in Dublin. His major specialisation was editing, with a minor in sound design. He received first class honours.</p>
                             <p>He co-founded the Irish creative video agency Desmond Bros Media, which specialises in digital creativity. <a href="http://desmondbros.ie" target="_blank">desmondbros.ie</a></p> 
-                            <h4 style="text-transform: uppercase; font-size: 1.1em; margin-bottom: -5px;">Achievements</h4>
+                            <h4 style="text-transform: uppercase; font-size: 1.1em; margin-bottom: 0px; margin-top: 3em; text-align: left;">Achievements</h4>
                             <p>Winner, Best Short Form - Royal Television Society ROI awards 2020 - Writer & director, "Looking For".</p> 
                             <p>Nominated, Best Editing - Richard Harris Film Festival 2019 - Editor, "Speak to Her" (dir by Jack Desmond, <a href="http://jackdesmond.com" target="_blank">jackdesmond.com</a> ).</p>
                             
                         </div>
-                </div>
                         
     </section>
 
-    <section class="showreel">
+    <section class="showreel container" id="skills">
 
         <h2>Skills</h2>
         <p style="text-align: left;">Cian Desmond can complete the entire video post-production process, from picture editing, colour grading and sound mixing, even voice-over if required - all according to the project needs and budget. </p>
@@ -370,6 +363,18 @@
         <p>Adobe Audition </p>
         <p>Voice Over & Narration</p>
         <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333; margin-top: 50px;">
+    </section>
+    <section class="showreel" id="motionGraphics">
+
+        <h2>Motion Graphics</h2>
+
+        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="bHG4cITfoac"></div>
+        <div class="more-text"><p style="text-align: left;">Cian Desmond is a professional motion graphics artist, with experience working with Adobe After Effects and Illustrator. He creates animated explainer videos, flat animation, and all sorts of motion graphic related titles and more. For corporate videos which need motion graphics, Cian Desmond can bring a storytelling flair.
+            An Irish video editor based in Ireland, he has worked remotely with clients all over the world.</p></div>
+        <div id="more"  class="button">Read more </div>
+        
+
+    
     </section>
 
     
@@ -384,74 +389,87 @@
 
 
     <div class="footer">
-        <div class="contain social">
+        <div class="social">
             <ul>
                 <li><a href="http://instagram.com/cianodesmond" target="_blank"><img src="/images/instagram-white.svg"></a></li>
                 <li><a href="http://youtube.com/desmondbros" target="_blank"><img src="/images/youtube-white.svg"></a></li>
                 <li><a href="http://linkedin.com/in/cian-desmond" target="_blank"><img src="/images/linkedin-white.svg"></a></li>
-                <li><a href="http://twitter.com/desmondbros" target="_blank"><img src="/images/twitter-white.svg"></a></li>
             </ul>
         </div>
-        <div class="contain copyright">
+        
+        <div class="copyright">
             <p style="color: white; font-size: small; font-weight: 300;">&copy; 2020</p>
             <p style="color: white; font-size: small; font-weight: 300;">Website design by Cian Desmond.</p>
         </div>
     </div>
 
     <script>
-        var menu = document.getElementById('menuBoggle');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
+                filterSelection("all") // Execute the function and show all columns
+        function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("blog-column");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "blog-show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "blog-show");
+        }
+        }
 
-        menu.addEventListener('click', function(e){
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
-
-        exit.addEventListener('click', function(e){
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
-    </script>
-    
-    <script>
-    $(document).ready(function() {
-        $('#videos a').each(function() {
-        var data = $(this).attr('data');
-        $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
-        });
-    
-        $('#videos a').click(function() {
-        var data = $(this).attr('data');
-        $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
-        $('#overlay').fadeIn(250);
-        });
-    
-        $('#close').click(function() {
-        $('#overlay').fadeOut(250,function() {
-            $('#loader').html('');
-        });
-        });
-    });
-    </script>
-
-    <script>
-            Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
-        get: function () {
-            return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
-        }});
-
-        $('body').on('click touchstart', function () {
-            const videoElement = document.getElementById('video-loop');
-            if (videoElement.playing) {
-                // video is already playing so do nothing
+        // Show filtered elements
+        function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
             }
-            else {
-                // video is not playing
-                // so play video now
-                videoElement.play();
+        }
+        }
+
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
             }
+        }
+        element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("blog-btn");
+        for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+        }
+    </script>
+
+    <script>$('#more').click(function(e) {
+        e.stopPropagation();
+        $('.more-text').css({
+            'height': 'auto'
+        })
     });
+    
+    $(document).click(function() {
+        $('.more-text').css({
+            'height': '50px'
+            
+        })
+    });
+
+    
+
+
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
