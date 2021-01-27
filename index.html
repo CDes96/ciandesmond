@@ -33,7 +33,7 @@
 <body>
 
     <header class="sticky">
-        <a href="/index.html" class="smoothscroll">
+        <a href="/index.html#top" class="smoothscroll">
             <img src="images/cian-logo-black-01.svg" class="logo" alt="Logo">
         </a>
         <nav>
@@ -57,7 +57,7 @@
     </header>
  
 
-    <div class="hero-image">
+    <div class="hero-image" id="top">
             <div class="home-text">
                 <h1>Freelance <br>Editor & Director.</h1>
                 <div class="social container">
@@ -72,20 +72,20 @@
     </div>
 
   
-    <section class="block-blue" id="work">
+    <section class="container" id="work">
             <h2 style="padding-top: 70px; text-align: center;">Selected Work</h2>
             <div class="blog-button-list" id="myBtnContainer">
                 <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
                 <button class="blog-btn" onclick="filterSelection('edit')">Projects I Edited</button>
                 <button class="blog-btn" onclick="filterSelection('direct')">Projects I Directed</button>
             </div>
-            <section id="portfolio" class="container">
+            <div class="container" id="portfolio">
                 <div class="row-port">
         
                 <div class="twelve columns collapsed">
         
                     <!-- portfolio-wrapper -->
-                    <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
+                    <div id="portfolio-wrapper" class="bgrid-halves s-bgrid-halves cf">
         
                         <div class="columns portfolio-item blog-column edit">
                             <div class="item-wrap">
@@ -281,7 +281,7 @@
                     </div><!-- modal-04 End -->
         
         
-                </div> <!-- row End -->
+            
 
                 <div id="modal-06" class="popup-modal mfp-hide">
         
@@ -301,38 +301,40 @@
                 </div><!-- modal-04 End -->
     
     
-            </div> <!-- row End -->
+                </div> <!-- row End -->
 
-            </section>
+            </div>
             <p style="text-align: center; font-size: small; padding-top: 7em; margin-bottom: -15em;">VIDEO EDITING | MUSIC VIDEO EDITING | CIAN DESMOND | FILM EDITING | COMMERCIAL EDITOR | CORK | MUNSTER</p>
 
     </section>
     
 
    
-    <section class="block-white container">
-        <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
-            <h4 style="text-align: center; margin-bottom: 0; padding-bottom: 0;">I've worked with</h4>
-            
-            <div class="row icon-row"> 
-                
-                <div class="column">
-                    <img src="images/client-nwc.png" alt="National Women's Council" style="width: 10em; vertical-align: middle;">
-                </div>
-                <div class="column">
-                    <img src="images/client-wunder.jpeg" alt="Wunder" style="width: 11em; vertical-align: middle;">
-                </div>
-                <div class="column">
-                  <img src="images/client-spicy-dog.png" alt="Spicy Dog Media" style="width: 10em; vertical-align: middle;">
-                </div>
-                <div class="column">
-                  <img src="images/client-iadt.png" alt="IADT" style="width: 7em; vertical-align: middle;">
-                </div>
-                <div class="column">
-                    <img src="images/client-cruinniu.png" alt="Cruinniu" style="width: 4em; vertical-align: baseline;">
-                  </div>
-            </div>
+    <section class="container" id="clients">
+        <div class="block-white"> 
             <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
+                <h4 style="text-align: center; margin-bottom: 0; padding-bottom: 0;">I've worked with</h4>
+                
+                <div class="row icon-row"> 
+                    
+                    <div class="column">
+                        <img src="images/client-nwc.png" alt="National Women's Council" style="width: 10em; vertical-align: middle;">
+                    </div>
+                    <div class="column">
+                        <img src="images/client-wunder.jpeg" alt="Wunder" style="width: 11em; vertical-align: middle;">
+                    </div>
+                    <div class="column">
+                    <img src="images/client-spicy-dog.png" alt="Spicy Dog Media" style="width: 10em; vertical-align: middle;">
+                    </div>
+                    <div class="column">
+                    <img src="images/client-iadt.png" alt="IADT" style="width: 7em; vertical-align: middle;">
+                    </div>
+                    <div class="column">
+                        <img src="images/client-cruinniu.png" alt="Cruinniu" style="width: 4em; vertical-align: baseline;">
+                    </div>
+                </div>
+            <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
+         </div>
     </section>
 
     
