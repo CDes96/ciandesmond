@@ -13,22 +13,19 @@
     <meta property="og:site_name" content="Cian Desmond">
     <meta property="og:title" content="Cian Desmond | Freelance Editor & Director">
     <meta property="og:description" content="Cian Desmond | Freelance Editor & Director">
-    <meta property="og:image" itemprop="image" content="http://desmondbros.ie/images/desmond-bros-tile.jpg">
+    <meta property="description" content="Cian Desmond is a filmmaker from Cork, Ireland. An editor, director, and producer, he has extensive experience working with award-winning short films, documentaries, corporate video, and music videos.">
+    <meta property="og:image" content="http://desmondbros.ie/images/desmond-bros-tile.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
-    <meta property="og:url" content="http://ciandesmond.com">
+    <meta property="og:url" content="https://ciandesmond.com">
 
     <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fadein.css">
 </head>
 
-<script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
- <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          const player = Plyr.setup('.js-player');
-      });
-  </script>
+
 
 <body>
 
@@ -57,7 +54,7 @@
     </header>
  
 
-    <div class="hero-image" id="top">
+    <section class="hero-image" id="top">
             <div class="home-text">
                 <h1>Freelance <br>Editor & Director.</h1>
                 <div class="social container">
@@ -69,11 +66,10 @@
                 </div>
             </div>
             
-    </div>
+        </section>
 
   
     <section class="container" id="work">
-            <h2 style="padding-top: 70px; text-align: center;">Selected Work</h2>
             <div class="blog-button-list" id="myBtnContainer">
                 <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
                 <button class="blog-btn" onclick="filterSelection('edit')">Projects I Edited</button>
@@ -196,8 +192,7 @@
                 </div> <!-- twelve columns end -->
         
         
-                <!-- Modal Popup
-                    --------------------------------------------------------------- -->
+                <!-- Modal Popup -->
         
                 <div id="modal-01" class="popup-modal mfp-hide">
         
@@ -321,7 +316,7 @@
                         <img src="images/client-nwc.png" alt="National Women's Council" style="width: 10em; vertical-align: middle;">
                     </div>
                     <div class="column">
-                        <img src="images/client-wunder.jpeg" alt="Wunder" style="width: 11em; vertical-align: middle;">
+                        <img src="images/client-wunder-blue.png" alt="Wunder" style="width: 11em; vertical-align: middle;">
                     </div>
                     <div class="column">
                     <img src="images/client-spicy-dog.png" alt="Spicy Dog Media" style="width: 10em; vertical-align: middle;">
@@ -330,7 +325,7 @@
                     <img src="images/client-iadt.png" alt="IADT" style="width: 7em; vertical-align: middle;">
                     </div>
                     <div class="column">
-                        <img src="images/client-cruinniu.png" alt="Cruinniu" style="width: 4em; vertical-align: baseline;">
+                        <img src="images/client-ptsb.svg" alt="Permanent TSB" style="width: 7em; vertical-align: baseline;">
                     </div>
                 </div>
             <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333;">
@@ -341,8 +336,7 @@
 
    
         
-    <section class="block-blue"  id="about"> 
-                        <div class="container">
+    <section class="container"  id="about"> 
                             <h2 style="text-align: left; padding-left: 0.25em; padding-top: 70px;">About</h2>
                             <p>Cian Desmond is a filmmaker from Cork, Ireland. An editor, director, and producer, he has extensive experience working with award-winning short films, documentaries, corporate video, and music videos. </p>
                             <p>Making films and videos since 2009, he picked up awards for editing at youth film festivals, before completing his bachelor’s degree at the National Film School in Dublin. His major specialisation was editing, with a minor in sound design. He received first class honours.</p>
@@ -351,7 +345,7 @@
                             <p>Winner, Best Short Form - Royal Television Society ROI awards 2020 - Writer & director, "Looking For".</p> 
                             <p>Nominated, Best Editing - Richard Harris Film Festival 2019 - Editor, "Speak to Her" (dir by Jack Desmond, <a href="http://jackdesmond.com" target="_blank">jackdesmond.com</a> ).</p>
                             
-                        </div>
+                       
                         
     </section>
 
@@ -390,7 +384,7 @@
 
 
 
-    <div class="footer">
+    <footer class="footer">
         <div class="social">
             <ul>
                 <li><a href="http://instagram.com/cianodesmond" target="_blank"><img src="/images/instagram-white.svg"></a></li>
@@ -403,7 +397,7 @@
             <p style="color: white; font-size: small; font-weight: 300;">&copy; 2020</p>
             <p style="color: white; font-size: small; font-weight: 300;">Website design by Cian Desmond.</p>
         </div>
-    </div>
+    </footer>
 
     <script>
                 filterSelection("all") // Execute the function and show all columns
@@ -477,11 +471,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/fadein.js"></script>
+
 
     <script>
         $('#menuToggle li a').on('click', function(){
             $('.menuToggle input[name="menuTog"]').prop('checked', false);
         });
+    </script>
+
+    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+    <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const player = Plyr.setup('.js-player');
+            });
     </script>
 
 </body>
