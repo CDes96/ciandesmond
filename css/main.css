@@ -81,6 +81,11 @@ ul {
     padding: 0;
 }
 
+.section-first {
+    height: 100vh;
+
+}
+
 .container {
     padding: .8em 1.2em;
     margin-right: 0.2em;
@@ -99,9 +104,10 @@ ul {
 }
 
 .logo {
-    height: 20px;
+    height:20px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 5px;
+    padding-left: 20px;
     
 }
 
@@ -528,7 +534,6 @@ li .img-right {
     text-align: center;
     text-decoration: none;
     color: white; 
-    background-color:; 
     display: flex;
     padding-right: 10px;
     margin: 0;
@@ -852,7 +857,6 @@ li .img-right {
     vertical-align: middle;
     width: 100%;
     padding-top: 4em;
-    margin: ;
     z-index: -7;
     position: sticky;
     top: 500px;
@@ -1202,7 +1206,6 @@ li .img-right {
         text-align: center;
         text-decoration: none;
         color: white; 
-        background-color:; 
         display: flex;
         padding-right: 10px;
         margin: 0;
@@ -1509,13 +1512,13 @@ li .img-right {
     }
   }
 
- // gallery 
+  
  
- div.gallery {
+    div.gallery {
     border: 1px solid #ccc;
     position: relative;
 
-}
+    }
   
   div.gallery img {
     width: 100%;
@@ -1617,36 +1620,7 @@ li .img-right {
     outline: 0;
  }
 
- #videos-vimeo a {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 0px;
-    box-sizing: border-box;
-    padding: 0;
-    float: left;
-    cursor: pointer;
-    text-decoration: none;
-    outline: 0;
- }
  
- #videos a:hover {
-    opacity: 0.7;
- }
-
- #videos-vimeo a:hover {
-    opacity: 0.7;
- }
- 
- #videos a img {
-    width: 100%;
-    height: auto;
- }
-
- #videos-vimeo a img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
- }
  
  #overlay {
     background: rgba(31,77,122,0.8);
