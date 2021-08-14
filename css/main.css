@@ -5,7 +5,7 @@
 body  {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: #fcfcff;
+    background: white;
 }
 
 p {
@@ -103,6 +103,10 @@ ul {
     margin: 1em auto 10em auto;
 }
 
+#process.container {
+    max-width: 700px;
+}
+
 .logo {
     height:20px;
     margin-top: 30px;
@@ -110,6 +114,37 @@ ul {
     padding-left: 20px;
     
 }
+
+
+.logoClients {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.logoGridContainer {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.logoGrid {
+    display: grid;
+    gap: 50px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 64em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.logoGridlogo {
+    width: 100%;
+    max-width: 6.5em;
+    max-height: 4.5em;
+    margin: auto;
+}
+
 
 .hide-mobile {
     opacity: 0;
@@ -132,7 +167,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fcfcff;
+    background-color: white;
     z-index: 5;
 }
 .gluey {
@@ -487,7 +522,7 @@ li .img-right {
 } 
 
 .block-white {
-    background: #fcfcff;
+    background: white;
     color: black;
     padding-bottom: 10em;
     text-align: left;
@@ -518,11 +553,12 @@ li .img-right {
 }
 
 .showreel {
-    background: #fcfcff;
+    background: white;
     color: black;
-    padding-bottom: 10em;
+    padding-bottom: 0em;
     text-align: center;
-    padding-top:7em;
+    padding-top: 0em;
+    margin-top: 0;
     
 
 }
@@ -574,7 +610,7 @@ li .img-right {
 }
 
 .block-blue {
-    background: #fcfcff;
+    background: white;
     color: black;
     padding-bottom: 15em;
     padding-top: 2em;
@@ -803,8 +839,9 @@ li .img-right {
     background-size: 50%;
 }
 
-#about .container {
-    margin-bottom: 7em;
+#about.container {
+    max-width: 700px;
+    margin: 0 auto 7em auto;
 }
 
 .profile-row {
@@ -867,7 +904,6 @@ li .img-right {
     text-align: center;
     color: black;
     z-index:1;
-    padding-top: 150px;
 }
 
 
@@ -968,6 +1004,43 @@ li .img-right {
     margin: 0 auto 0 auto;
 }
 
+.card {
+    width: 90%;
+    height: 100%;
+    min-height: 300px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    margin: 0 auto 20px auto;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+details {
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+summary  {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+summary:hover {
+    opacity: 75%;
+}
+
+#top {margin-top: 5em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+
 
     
 
@@ -987,18 +1060,9 @@ li .img-right {
     
     }
 
-    
-
-
-    
-
-    
-
     .showreel-btn {
         margin-top: -10em;
     }
-
-    
 
 
     h1 {
@@ -1243,6 +1307,10 @@ li .img-right {
         
     }
 
+    .card {
+        width: 60%;
+    }
+
     
 }
 
@@ -1342,18 +1410,17 @@ li .img-right {
 
     .showreel {
         color: black;
-        padding-bottom: 5em;
         text-align: center;
-        padding-top: 6em;
         padding-left: 20%;
         padding-right: 20%;
         
     
     }
 
-    #about.container {
-        margin-bottom: -1em;
-        margin-right: 30%;
+    
+
+    .card {
+        width: 45%;
     }
 }
 
@@ -1660,4 +1727,42 @@ li .img-right {
     min-height: 500px;
  }
 
- 
+ .cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    width: 30%;
+    min-width: 400px;
+    max-width: 500px;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+
+    z-index: 20;
+  }
+
+  .cookie-banner a {
+      margin-left: 10px;
+      color: grey;
+
+  }
+
+  .close {
+      display: block;
+      background-color: darkgray;
+      color: white;
+      border-radius: 5px;
+      padding: .3em .8em;
+      cursor: pointer;
+      align-items: center;
+      transition: 0.5s;
+      margin-left: 50px;
+  }
+
+  .close:hover {
+    background-color: grey;
+}
