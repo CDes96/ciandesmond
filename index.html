@@ -8,6 +8,7 @@
     <link rel="icon" sizes="72x72" href="/images/db-favicon.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="/css/flickity.min.css" />
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta property="og:site_name" content="Cian Desmond">
@@ -30,9 +31,11 @@
 <body>
 
     <header class="sticky">
-        <a href="/index.html#top" class="smoothscroll">
-            <img src="images/cian-logo-black-01.svg" class="logo" alt="Logo">
-        </a>
+        <div>
+            <a href="#top" class="smoothscroll">
+                <div class="logo-box"></div>
+            </a>
+        </div>
         <nav>
             
 
@@ -41,47 +44,59 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                
 
                 <ul class="hide-mobile" id="nav">
                     <li><a href="#work" class="smoothscroll">work</a></li>
                     <li><a href="#about" class="smoothscroll">about</a></li>
-                    <li><a href="#skills" class="smoothscroll">skills</a></li>
                     <li><a href="#contact" class="smoothscroll">contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
-    <div class="cookie-banner" style= "display: none">
-            <p>We use cookies to analyse traffic. We don't track you, 
-            and we'll never share your information! 
-            <a href="film.html">Cookie Policy</a></p>
-            <div class="close"> <p>close</p> </div>
-        
-    </div>
  
 
-    <div class="block-blue container" id="top">
-                <h1>Irish Freelance Editor & Director.</h1>
-                <div class="showreel" id="showReel">
-           
-                    <div class="js-player" data-plyr-provider="vimeo" data-plyr-embed-id="587173488"></div>
-                    <div><p style="text-align: center;">Cian Desmond is a film & video editor and director, based in Cork, Ireland.</p></div>
-                    
+    <div id="top">
         
-                
-            </div>
-            
+       
+        <div class="carousel-main" data-flickity='{ "cellAlign": "center", "wrapAround": true, "autoPlay": true }'>
+                <div class="carousel-cell"> 
+                        <div class="carousel-text"><p>Campaign: Swappie Ireland</p></div>
+                        <div class="carousel-image"><img alt="Repak" src="images/swappie-01.jpg"></div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-text"><p>Short Film: Looking For</p></div>
+                        <div class="carousel-image carousel-left"><img alt="short film" src="images/looking-for-04-cropped.png"></div>
+                </div>
+                <div class="carousel-cell">
+                    <div class="carousel-text"><p>Commercial: Pure Cork</p></div>
+                        <div class="carousel-image"><img alt="Repak" src="images/pure-cork-02-1920w.png"></div>
+                </div>
         </div>
+        <div class="home-text">
+            <h1>Director, Writer, Editor.</h1>
+           
+        </div>
+        <div> <a href="#intro" class="smoothscroll"><div class="down-icon"></div></a> </div>
+        
+       
+    </div>
+
+    <section class="block-white" id="intro">
+        <p style="text-align: center; margin-top: 200px;">Cian Desmond is an award-winning filmmaker and writer from Cork, Ireland.</p>
+    </section>
+
+    
+
+    
 
   
     <section class="container" id="work">
-            <div class="blog-button-list" id="myBtnContainer">
-                <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
-                <button class="blog-btn" onclick="filterSelection('edit')">Projects I Edited</button>
-                <button class="blog-btn" onclick="filterSelection('direct')">Projects I Directed</button>
-            </div>
+        <h2>work.</h2>
+        <div class="blog-button-list" id="myBtnContainer">
+            <button class="blog-btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="blog-btn" onclick="filterSelection('direct')">As Director</button>
+            <button class="blog-btn" onclick="filterSelection('edit')">As Editor</button>
+        </div>
             <div class="container" id="portfolio">
                 <div class="row-port">
         
@@ -94,13 +109,46 @@
                             <div class="item-wrap">
         
                             <a href="#modal-01" title="">
-                                <img alt="" src="images/port-work-life.png">
+                                <img alt="" src="images/wildflour_01_500w.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Editor, Motion Graphics | "WorkLife"</h5>
-                                        <p>Commercial.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
+                                        <h4>Wildflour Brand Film</h4>
+                                        <p>Editor, Co-Director | Commercial spot.</p>
                                     </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                        </div> <!-- item end -->
+
+                        <div class="columns portfolio-item blog-column direct edit">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-04" title="">
+                                <img alt="" src="images/swappie-02-1920w.jpg">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                            <h4>Swappie Ireland campaign</h4>
+                                        <p>Co-Director, Editor | Online commercial campaign - video spots and photography content.</p>
+                                        </div>
+                                </div>
+                            </a>
+        
+                            </div>
+                            </div> <!-- item end -->
+
+                        
+        
+                        <div class="columns portfolio-item blog-column edit direct">
+                            <div class="item-wrap">
+        
+                            <a href="#modal-05" title="">
+                                <img alt="" src="images/pure-cork-02-500px.png">
+                                <div class="overlay">
+                                    <div class="portfolio-item-meta">
+                                            <h4>Pure Cork - "Perfect Background"</h4>
+                                        <p>Co-Director, Editor | Narrative TVC.</p>
+                                        </div>
                                 </div>
                             </a>
         
@@ -114,9 +162,8 @@
                                 <img alt="" src="images/looking-for-03.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                        <h5>Writer, Director | "Looking For"</h5>
-                                        <p>Short film. Winner 'Best Short Form', 'Best Cinematography' - Royal Television Society awards ROI 2020.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
+                                        <h4>"Looking For"</h4>
+                                        <p>Writer, Director | Short film. Winner 'Best Short Form', 'Best Cinematography' - Royal Television Society awards ROI 2020.</p>
                                     </div>
                                 </div>
                             </a>
@@ -131,64 +178,26 @@
                                 <img alt="" src="images/port-speak-to-her.png">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                            <h5>Editor | "Speak to Her"</h5>
-                                        <p>Award-winning short film.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
+                                            <h4>"Speak to Her"</h4>
+                                        <p>Editor | Award-winning short film. Directed by Jack Desmond.</p>
                                         </div>
                                 </div>
                             </a>
         
                             </div>
                             </div> <!-- item end -->
-        
-                        <div class="columns portfolio-item blog-column edit">
-                            <div class="item-wrap">
-        
-                            <a href="#modal-04" title="">
-                                <img alt="" src="images/foodybite-01.jpg">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                            <h5>Editor, VO Artist | Foodybite</h5>
-                                        <p>Restaurant app commercial.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
-                                        </div>
-                                </div>
-                            </a>
-        
-                            </div>
-                            </div> <!-- item end -->
-        
-                        <div class="columns portfolio-item blog-column edit">
-                            <div class="item-wrap">
-        
-                            <a href="#modal-05" title="">
-                                <img alt="" src="images/port-gemini.png">
-                                <div class="overlay">
-                                    <div class="portfolio-item-meta">
-                                            <h5>Editor | Lost Boys - "Gemini"</h5>
-                                        <p>Music Video.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
-                                        </div>
-                                </div>
-                            </a>
-        
-                            </div>
-                        </div> <!-- item end -->
 
                         <div class="columns portfolio-item blog-column edit  direct">
                             <div class="item-wrap">
         
-                            <a href="#modal-06" title="">
-                                <img alt="" src="images/corporate-brand.png">
+                            
+                                <img alt="" src="images/Three Hikers temp.jpg">
                                 <div class="overlay">
                                     <div class="portfolio-item-meta">
-                                            <h5>Editor & VO Artist| AtmosC Brand Film</h5>
-                                        <p>Company brand film.</p>
-                                        <img class="icon-plus" src="images/plus-white.svg">
+                                            <h4>Three Hikers</h4>
+                                        <p>Co-Director, Editor | Short film. Written, directed and edited by Cian Desmond and Jack Desmond.</p>
                                         </div>
                                 </div>
-                            </a>
-        
                             </div>
                         </div> <!-- item end -->
         
@@ -203,12 +212,12 @@
         
                 <div id="modal-01" class="popup-modal mfp-hide">
         
-                        <div class="js-player" data-plyr-provider="vimeo" data-plyr-embed-id="478161893"></div>
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ReyNvtFn9m4"></div>
         
                         <div class="description-box">
-                            <h4>Editor, Motion Graphics | Irish Life Health  "WorkLife"</h4>
-                            <p>Commercial. Edited and motion graphics by Cian Desmond. Produced by Spicy Dog Media.</p>
-                        <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Corporate Video</span>
+                            <h4>Editor, Co-director | Wildflour Brand Film</h4>
+                            <p>Commercial. Co-written and directed by Cian Desmond. Cinematography by Jack Desmond. Produced by <a href="https://desmondbros.ie">Desmond Bros Media</a>.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Brand Film, Corporate Video</span>
                         </div>
         
                     <div class="link-box">
@@ -251,12 +260,12 @@
                     </div><!-- modal-02 End -->
         
                 <div id="modal-04" class="popup-modal mfp-hide">
-                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ztehkVzUJW8"></div>
+                        <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="9kKmPctJBM4"></div>
         
                         <div class="description-box">
-                            <h4>Editor, VO Artist | Foodybite</h4>
-                            <p>Restaurant app commercial. Edited and voiceover by Cian Desmond.</p>
-                        <span class="categories"><img src="images/tag-black.svg" alt="">App, Commercial, Online, Corporate</span>
+                            <h4>Swappie Ireland campaign</h4>
+                            <p>Co-Director, Editor | Online commercial campaign - video spots and photography content.</p>
+                        <span class="categories"><img src="images/tag-black.svg" alt="">Commercial, Online, Corporate</span>
                         </div>
         
                     <div class="link-box">
@@ -270,8 +279,8 @@
                         <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="ryejKHMc22U"></div>
         
                         <div class="description-box">
-                            <h4>Editor | Lost Boys - "Gemini"</h4>
-                            <p>Dir. & cinematography by Jack Desmond. Edited by Cian Desmond.</p>
+                            <h4>Pure Cork -  "Perfect Background"</h4>
+                            <p>Co-director and editor. TVC commercial.</p>
                         <span class="categories"><img src="images/tag-black.svg" alt="">Music Video</span>
                         </div>
         
@@ -281,26 +290,6 @@
                     </div>
         
                     </div><!-- modal-04 End -->
-        
-        
-            
-
-                <div id="modal-06" class="popup-modal mfp-hide">
-        
-                    <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="2WtZbc4ehQc"></div>
-    
-                    <div class="description-box">
-                        <h4>Editor & VO Artist | AtmosC Brand Film</h4>
-                        <p>Edited and voice over by Cian Desmond.</p>
-                    <span class="categories"><img src="images/tag-black.svg" alt="">Brand film, Corporate Video</span>
-                    </div>
-    
-                <div class="link-box">
-                    
-                    <a class="popup-modal-dismiss">Close</a>
-                </div>
-    
-                </div><!-- modal-04 End -->
     
     
                 </div> <!-- row End -->
@@ -309,33 +298,12 @@
             <p style="text-align: center; font-size: small; padding-top: 7em;">VIDEO EDITING | MUSIC VIDEO EDITING | CIAN DESMOND | FILM EDITING | COMMERCIAL EDITOR | CORK | MUNSTER</p>
 
     </section>
-
-    <section class="logoClients container">
-        <h3>clients.</h3>
-        <div class="logoGridContainer" id="clients">
-            <div class="logoGrid">
-                <img class="logoGridlogo" src="images/client-wunder-blue.svg" alt="Wunder Mobility">
-                <img class="logoGridlogo" src="images/client-irish-life.svg" alt="Irish Life Health">
-                <img class="logoGridlogo" src="images/client-journal-blue.svg" alt="The Journal.ie">
-                <img class="logoGridlogo" src="images/client-repak-blue.svg" alt="Repak Ireland">
-                <img class="logoGridlogo" src="images/client-southern-star.svg" alt="Southern Star newspaper">
-                <img class="logoGridlogo" src="/images/client-spicy-dog.png" alt="Spicy Dog Media">
-                <img class="logoGridlogo" src="images/client-credit-union.svg" alt="Credit Union Ireland">
-                <img class="logoGridlogo" src="images/client-edge-sports-blue.svg" alt="Edge Sports">
-                <img class="logoGridlogo" src="images/client-iadt.png" alt="IADT">
-            </div>
-        </div>
-    </section>
-
-    
-
-   
         
-    <section class="container"  id="about"> 
-                            <h2 style="text-align: left; padding-left: 0.25em; padding-top: 70px;">About</h2>
+    <section class="container block-blue"  id="about"> 
+                            <h2 style="padding-left: 0.25em; padding-top: 70px;">about.</h2>
                             <p>Cian Desmond is a filmmaker from Cork, Ireland. An editor, director, and producer, he has extensive experience working with award-winning short films, documentaries, corporate video, and music videos. </p>
-                            <p>Making films and videos since 2009, he picked up awards for editing at youth film festivals, before completing his bachelor’s degree at the National Film School in Dublin. His major specialisation was editing, with a minor in sound design. He received first class honours.</p>
-                            <p>He co-founded the Irish creative video agency Desmond Bros Media, which specialises in digital creativity. <a href="http://desmondbros.ie" target="_blank">desmondbros.ie</a></p> 
+                            <p>Making films and videos since 2009, he picked up awards for editing at youth film festivals, before completing his bachelor's degree at the National Film School in Dublin. His major specialisation was editing, with a minor in sound design. He received first class honours.</p>
+                            <p>He co-founded the Irish film & TV production company and creative agency Desmond Bros Media. <a href="http://desmondbros.ie" target="_blank">desmondbros.ie</a></p> 
                             <h4 style="text-transform: uppercase; font-size: 1.1em; margin-bottom: 0px; margin-top: 3em; text-align: left;">Achievements</h4>
                             <p>Winner, Best Short Form - Royal Television Society ROI awards 2020 - Writer & director, "Looking For".</p> 
                             <p>Nominated, Best Editing - Richard Harris Film Festival 2019 - Editor, "Speak to Her" (dir by Jack Desmond, <a href="http://jackdesmond.com" target="_blank">jackdesmond.com</a> ).</p>
@@ -344,48 +312,11 @@
                         
     </section>
 
-    <section class="showreel container" id="skills">
-
-        <h2>Skills</h2>
-        <p style="text-align: left;">Cian Desmond can complete the entire video post-production process, from picture editing, colour grading and sound mixing, even voice-over if required - all according to the project needs and budget. </p>
-        <p>Adobe Premiere Pro</p>
-        <p>Adobe After Effects</p>
-        <p>DaVinci Resolve</p>
-        <p>Adobe Audition </p>
-        <p>Voice Over & Narration</p>
-        <hr style="width: 50%; height: 1px; border: none; color: #333; background-color: #333; margin-top: 50px;">
-    </section>
-    <section class="showreel">
-        <h2>Specialty Skills</h2>
-
-        <div class="row">
-            <div class="card">
-                <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="bHG4cITfoac"></div>
-                <details>
-                    <summary>Motion Graphics</summary>
-                    <p style="text-align: left;">Cian Desmond is a professional motion graphics artist, with experience working with Adobe After Effects and Illustrator. He creates animated explainer videos, flat animation, and all sorts of motion graphic related titles and more. For corporate videos which need motion graphics, Cian Desmond can bring a storytelling flair.
-                    An Irish video editor based in Ireland, he has worked remotely with clients all over the world.</p>
-                </details>
-            </div>
-
-            <div class="card">
-                <div class="js-player" data-plyr-provider="youtube" data-plyr-embed-id="UHmMfj4K9bs"></div>
-                <details>
-                    <summary>Voice Over</summary>
-                    <p style="text-align: left;">Cian Desmond is a professional voice-over artist. 
-                    A male Irish VO artist based in Ireland, he has worked remotely with clients all over the world.</p>
-                </details>
-            </div>
-        </div>
-
-    
-    </section>
-
     
     <section class="block-white" id="contact">
             <h3>Let's work together.</h3>
             <p style="text-align: center;">Send me an email about your project.</p>
-            <h4><a href="mailto:cianodesmond@gmail.com"><img src="/images/email.svg" alt="" style="width: 30px; vertical-align: middle; margin-right: 10px;">cianodesmond@gmail.com</a> </h4>
+            <h4><a href="mailto:cianodesmond@gmail.com"><img src="/images/email-white.svg" alt="" style="width: 30px; vertical-align: middle; margin-right: 10px;">cianodesmond@gmail.com</a> </h4>
 
 
     </section>
@@ -402,7 +333,7 @@
         </div>
         
         <div class="copyright">
-            <p style="color: white; font-size: small; font-weight: 300;">&copy; 2020</p>
+            <p style="color: white; font-size: small; font-weight: 300;">&copy; 2022</p>
             <p style="color: white; font-size: small; font-weight: 300;">Website design by Cian Desmond.</p>
         </div>
     </footer>
@@ -506,6 +437,7 @@
         });
 
     </script>
+     <script src="/js/flickity.pkgd.min.js"></script>
 
 </body>
 </html>
