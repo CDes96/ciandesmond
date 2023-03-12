@@ -11,4 +11,4 @@ $(document).on("scroll", function () {
     } else {  $(tag).removeClass("visible")
     }
     }
-    })
+})
