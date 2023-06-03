@@ -757,7 +757,8 @@ li .img-right {
 .block-white {
     background: #fff;
     color: black;
-    padding-bottom: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
     text-align: left;
 }
 
