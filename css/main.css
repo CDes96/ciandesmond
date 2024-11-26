@@ -31,6 +31,7 @@ body  {
     color: var(--primary-colour);
     margin: 0; padding: 0px;
     background-color: var(--white-colour);
+    overflow-x: hidden;
 }
 
 ::selection {
@@ -339,7 +340,7 @@ a > .logo-box:hover {
 
 .block-full {
     min-height: 100vh;
-    margin: auto;
+    margin: 0;
     align-items: center;
     text-align: left;
     justify-content: center;
