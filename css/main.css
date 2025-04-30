@@ -802,8 +802,9 @@ a > .logo-box:hover {
     }
 
     #about {
-        text-align: justify;
+        text-align: left;
         padding: 2em;
+        max-width: 800px;
     }
 
     .icon::after {
